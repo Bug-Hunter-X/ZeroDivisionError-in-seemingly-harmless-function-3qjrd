@@ -1,0 +1,1 @@
+This repository contains a simple Python function that demonstrates an uncommon error. The function `function_with_uncommon_error` may raise a ZeroDivisionError exception even though the error condition is checked explicitly with an `if` statement. This is because the return statement inside the `if` block is executed even when `a` is 0, leading to division by zero.
